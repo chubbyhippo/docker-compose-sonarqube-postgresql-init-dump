@@ -20,8 +20,6 @@ services:
       POSTGRES_USER: sonar
       POSTGRES_PASSWORD: sonar
       POSTGRES_DB: sonar
-    ports:
-      - "9999:5432"
   db_init:
     image: postgres:latest
     volumes:
