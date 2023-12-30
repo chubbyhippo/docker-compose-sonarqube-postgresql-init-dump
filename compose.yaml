@@ -1,6 +1,6 @@
 services:
   sonarqube:
-    image: sonarqube:community
+    image: sonarqube:10.1-community
     hostname: sonarqube
     container_name: sonarqube
     depends_on:
